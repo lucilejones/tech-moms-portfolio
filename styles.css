@@ -11,7 +11,8 @@ body {
 .grid-container{
     position: relative;
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    /* grid-template-columns: 25vw 25vw 25vw 25vw; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -19,14 +20,19 @@ body {
 
 hr{
     width: 30%;
-    margin: 20px 117px 20px 117px;
+    /* margin: 20px 117px 20px 117px; */
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
 }
 
 .overlay-top{
     position: absolute;
     top: 50px;
     left: 38vw;
-    color: #5FA79E;
+    width: 350px;
+    color: #A1D6CE;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     font-size: 60px;
@@ -72,6 +78,32 @@ li {
 }
 
 li:hover{
-    background-color: #A1D6CE;
+    /* background-color: #A1D6CE; */
+    background-color: #5CA4B9;
     /* background-color: #283F5C; */
 }
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #F0F0ED;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    /* color: #5CA4B9; */
+    color: #A1D6CE;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #F0F0ED;
+    background-color: transparent;
+    text-decoration: none;
+  }

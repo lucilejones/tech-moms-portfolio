@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-container {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2;
+    height: 70vh;
+    background-image: url(assets/joanna-kosinska-LbMy35NyCNg-unsplash.jpg);
+    /* url can be to external site or folder path */
+    background-size: cover;
+    /* cover will have it cover the whole container */
+}
