@@ -25,6 +25,7 @@ body {
 
 .header-flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
     /* flex is saying where to put content in a box */
     align-items: center;

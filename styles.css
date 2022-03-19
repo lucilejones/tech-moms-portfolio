@@ -93,23 +93,27 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
-  a:visited {
+a:visited {
     color: #F0F0ED;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     /* color: #5CA4B9; */
     color: #A1D6CE;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
-  a:active {
+a:active {
     color: #F0F0ED;
     background-color: transparent;
     text-decoration: none;
-  }
+}
+
+@media (min-width: 720px) {
+      
+}  

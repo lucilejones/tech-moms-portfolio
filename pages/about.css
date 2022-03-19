@@ -25,6 +25,7 @@ body {
 
 .header-flex {
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
     /* flex is saying where to put content in a box */
     align-items: center;
@@ -98,3 +99,12 @@ a:hover {
     margin-top: 50px;
     line-height: 2;
 }
+
+/* @media screen and (max-width: 992px) {
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+    }
+  } */
