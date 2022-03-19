@@ -69,6 +69,7 @@ li {
     background-color: #21435A;
     /* background-color: #389085; */
     font-size: 45px;
+    transition: .25s;
 }
 
 .grid-container >li > p {
@@ -77,10 +78,15 @@ li {
     font-style: italic;
 }
 
+.grid-container >li > a {
+    border-bottom: 3px solid white;
+}
+
 li:hover{
     /* background-color: #A1D6CE; */
     background-color: #5CA4B9;
     /* background-color: #283F5C; */
+    background-image: linear-gradient(90deg, #5CA4B9, #A1D6CE);
 }
 
 a:link {

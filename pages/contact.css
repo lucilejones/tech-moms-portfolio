@@ -8,13 +8,99 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.main-container {
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 2;
-    height: 70vh;
-    background-image: url(assets/joanna-kosinska-LbMy35NyCNg-unsplash.jpg);
-    /* url can be to external site or folder path */
-    background-size: cover;
-    /* cover will have it cover the whole container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
+
+.name-header {
+    color: #21435A;
+    font-family: 'Libre Baskerville', serif;
+    /* text-align: center; */
+    font-size: 60px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: end;
+    /* flex is saying where to put content in a box */
+    align-items: center;
+    /* align top to bottom */
+    padding-top: 30px;
+}
+
+nav a {
+    /* will find any a elements in the nav element */
+    font-size: 20px;
+    color: #21435A;
+    font-weight: bold;
+    margin: 0 30px;
+    /* first number top and bottom, second number is left and right */
+}
+
+a {
+    /* will apply to all links on the page */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5CA4B9;
+}
+
+.main-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40vw 60vw;
+    height: 70vh;
+    width: 100;
+}
+
+.main-section-left {
+    grid-column: 0/1;
+    grid-row: 1;
+    background-image: url(../assets/joanna-kosinska-LbMy35NyCNg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-section-right {
+    grid-column: 2/3;
+    background-color: #5CA4B9;
+    padding: 10px;
+}
+
+.sidebar-title {
+    color: #F0F0ED;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 400px;
+    border-bottom: 3px solid #F0F0ED;
+}
+
+.sidebar-tagline {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: #21435A;
+    padding-left: 30px;
+    margin-top: 50px;
+    line-height: 2;
+}
+
+.icon {
+    color: #21435A;
+    font-size: 100px;
+    padding: 40px;
+}
+
+a .icon:hover {
+    color:#F0F0ED;
+}
+
+
+

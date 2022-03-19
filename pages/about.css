@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.name-header {
+    color: #21435A;
+    font-family: 'Libre Baskerville', serif;
+    /* text-align: center; */
+    font-size: 60px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: end;
+    /* flex is saying where to put content in a box */
+    align-items: center;
+    /* align top to bottom */
+    padding-top: 30px
+}
+
+nav a {
+    /* will find any a elements in the nav element */
+    font-size: 20px;
+    color: #21435A;
+    font-weight: bold;
+    margin: 0 30px;
+    /* first number top and bottom, second number is left and right */
+}
+
+a {
+    /* will apply to all links on the page */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5CA4B9;
+}
+
+.main-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 34vw 66vw;
+    height: 70vh;
+    width: 100;
+}
+
+.main-section-left {
+    grid-column: 0/1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-portrait {
+    height: 375px;
+    width: 375px;
+    border-radius: 50%;
+    /* padding: 10px; */
+}    
+
+.main-section-right {
+    grid-column: 2/3;
+    background-color: #5CA4B9;
+    padding: 10px;
+}
+
+.sidebar-title {
+    color: #F0F0ED;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 70px;
+    width: 400px;
+    border-bottom: 3px solid #F0F0ED;
+}
+
+.sidebar-tagline {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    color: #21435A;
+    padding-left: 30px;
+    margin-top: 50px;
+    line-height: 2;
+}
