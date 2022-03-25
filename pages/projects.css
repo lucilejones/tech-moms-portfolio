@@ -17,7 +17,6 @@ body {
 .name-header {
     color: #21435A;
     font-family: 'Libre Baskerville', serif;
-    /* text-align: center; */
     font-size: 60px;
     margin-top: 25px;
     margin-left: 25px;
@@ -27,23 +26,18 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    /* flex is saying where to put content in a box */
     align-items: center;
-    /* align top to bottom */
     padding-top: 30px
 }
 
 nav a {
-    /* will find any a elements in the nav element */
     font-size: 20px;
     color: #21435A;
     font-weight: bold;
     margin: 0 30px;
-    /* first number top and bottom, second number is left and right */
 }
 
 a {
-    /* will apply to all links on the page */
     text-decoration: none;
 }
 
@@ -93,7 +87,7 @@ a:hover {
 
 .projects {
     height: 100px;
-    width: 250px;
+    width: 300px;
 }
 
 section a {
@@ -104,3 +98,9 @@ section a {
 section a:hover {
     color:#F0F0ED;
 }
+
+@media screen and (max-width: 992px) {
+    .main-section {
+        height: 100vh;
+    }
+  }
